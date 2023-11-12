@@ -56,6 +56,7 @@ const Tweets = () => {
                 <div className="flex items-center">
                   <div className="w-12 h-12 bg-white grid place-content-center rounded-md shadow-md">
                     <AiOutlineTwitter color="#60A5FA" size={24} />
+
                   </div>
                   <div className="ml-1.5 text-sm leading-tight flex gap-2 ">
                     <span className="text-black dark:text-white font-bold block ">
