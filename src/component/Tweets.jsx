@@ -58,7 +58,7 @@ const Tweets = () => {
                     <AiOutlineTwitter color="#60A5FA" size={24} />
 
                   </div>
-                  <div className="ml-1.5 text-sm leading-tight flex gap-2 ">
+                  <div className="ml-1.5 text-sm leading-tight flex gap-2  ">
                     <span className="text-black dark:text-white font-bold block ">
                       predict_22
                     </span>
