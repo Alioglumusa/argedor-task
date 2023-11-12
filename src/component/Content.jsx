@@ -5,7 +5,7 @@ import Tweets from "./Tweets";
 
 const Content = ({open}) => {
   return (
-  <div className={`${open ? "ml-[350px]" : "ml-[70px]" } absolute top-20 transition-all md:w-full w-[300px]`}>
+  <div className={`${open ? "ml-[350px]" : "ml-[70px]" } absolute top-20 transition-all md:w-[96%] w-[300px]`}>
   <DownloadBar/>
   <WorkSpace/>
   <Tweets/>

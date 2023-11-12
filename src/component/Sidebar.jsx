@@ -87,7 +87,7 @@ const Sidebar = ({ open, pin, setOpen, setPin }) => {
   };
 
   return (
-    <div onMouseOver={screenWidth > 760 ? expandSidebar : null} onMouseOut={collapseSidebar} className="h-screen fixed">
+    <div onMouseOver={screenWidth > 760 ? expandSidebar : null} onMouseOut={collapseSidebar} className="h-screen md:relative fixed">
       {/* //Header Blue Side */}
       <div
         className={` ${
