@@ -10,6 +10,13 @@
     }
 }
 
+
+
+.mobileFixed{
+    position: absolute !important;
+    top: 0;
+}
+
 .mobileFixed {
     @media screen and (max-width: 767px) {
         position: fixed !important;

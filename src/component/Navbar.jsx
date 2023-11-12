@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <>
     
-      <div className="absolute right-0 py-5 w-[1570px]">
+      <div className="right-0 py-5 w-full">
         <div className="justify-end items-center flex relative mr-10">
           <div className="mr-20 cursor-pointer">
             <img src={imgFullscreen} alt="" width="20px"/>
