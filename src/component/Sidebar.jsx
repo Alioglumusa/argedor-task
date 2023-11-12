@@ -87,7 +87,7 @@ const Sidebar = ({ open, pin, setOpen, setPin }) => {
   };
 
   return (
-    <div onMouseOver={screenWidth > 760 ? expandSidebar : null} onMouseOut={collapseSidebar} className="h-screen">
+    <div onMouseOver={screenWidth > 760 ? expandSidebar : null} onMouseOut={collapseSidebar} className="h-screen fixed">
       {/* //Header Blue Side */}
       <div
         className={` ${
@@ -123,7 +123,7 @@ const Sidebar = ({ open, pin, setOpen, setPin }) => {
       <div
         className={` ${
           open ? "w-[350px]" : "w-[68px] "
-        }  bg-black  transition-all h-[1360px] lg:h-[639px]`}
+        }  bg-black  transition-all md:h-[1360px] h-screen lg:h-[639px] `}
       >
         <div className="flex justify-center ">
           <img
